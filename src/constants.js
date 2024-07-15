@@ -1,14 +1,22 @@
+import pkgInfo from "../package.json";
+
 export const constants = {
-    urls: {
-        redirectToAppsPage: "https://console.pixelbin.io/choose-org?redirectTo=settings/apps",
-        redirectToDashboardPage: "https://console.pixelbin.io/choose-org?redirectTo=dashboard",
-        redirectToPricingPage: "https://console.pixelbin.io/choose-org?redirectTo=settings/billing/pricing",
+	userAgent: `ErasebgPlugin/${pkgInfo.version} Photoshop`,
 
-        orgPricingPage: "https://console.pixelbin.io/organization/:orgId/settings/billing/pricing",
+	urls: {
+		redirectToAppsPage:
+			"https://console.pixelbin.io/choose-org?redirectTo=settings/apps",
+		redirectToDashboardPage:
+			"https://console.pixelbin.io/choose-org?redirectTo=dashboard",
+		redirectToPricingPage:
+			"https://console.pixelbin.io/choose-org?redirectTo=settings/billing/pricing",
 
-        pluginHomePage: "https://www.erase.bg",
-        pluginDoc: "https://www.pixelbin.io/docs/integrations/photoshop/erase.bg/",
+		orgPricingPage:
+			"https://console.pixelbin.io/organization/:orgId/settings/billing/pricing",
 
-        apiDomain: "https://api.pixelbin.io",
-    },
+		pluginHomePage: "https://www.erase.bg",
+		pluginDoc: "https://www.pixelbin.io/docs/integrations/photoshop/erase.bg/",
+
+		apiDomain: "https://api.pixelbin.io",
+	},
 };
