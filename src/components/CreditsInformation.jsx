@@ -38,7 +38,7 @@ export function CreditsInformation({ appOrgDetails, usage }) {
         variant="primary"
         onClick={handleBuyCreditsButtonClick}
       >
-        Buy more credits
+        Buy more creditss
       </sp-button>
     </>
   );

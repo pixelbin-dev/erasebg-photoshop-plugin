@@ -2,6 +2,7 @@ import pkgInfo from '../package.json';
 
 export const constants = {
   userAgent: `ErasebgPlugin/${pkgInfo.version} Photoshop`,
+  photoshopVersion: '23.0.8',
   urls: {
     redirectToAppsPage:
       'https://console.pixelbin.io/choose-org?redirectTo=settings/apps',
