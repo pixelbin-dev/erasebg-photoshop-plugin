@@ -13,9 +13,13 @@
   "author": "PixelBin",
   "license": "MIT",
   "lint-staged": {
-    "*.{js,jsx,json,css,html}": [
+    "*.{js,jsx,ts,tsx}": [
       "prettier --write",
       "eslint --fix",
+      "git add"
+    ],
+    "*.{json,css,html}": [
+      "prettier --write",
       "git add"
     ]
   },
