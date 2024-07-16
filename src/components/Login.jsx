@@ -73,7 +73,7 @@ export function Login({ setToken, setAppOrgDetails }) {
       <main style={styles.main}>
         <header style={styles.header}>
           <img src="./icons/erasebg.png" style={styles.productImage} />
-          Logins
+          Login
         </header>
         <WC onInput={handleTokenInputValueChange}>
           <sp-textfield
