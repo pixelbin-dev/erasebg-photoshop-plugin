@@ -137,6 +137,7 @@ export const applyTransformation = async ({
   const config = new PixelbinConfig({
     domain: constants.urls.apiDomain,
     apiSecret: token,
+    integrationPlatform: constants.userAgent,
   });
 
   const pixelbin = new PixelbinClient(config);
@@ -276,6 +277,7 @@ export const getUsage = (token) => {
   const config = new PixelbinConfig({
     domain: constants.urls.apiDomain,
     apiSecret: token,
+    integrationPlatform: constants.userAgent,
   });
 
   const pixelbin = new PixelbinClient(config);
